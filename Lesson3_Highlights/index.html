@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>INSERT YOUR NAME</title>
+    <title>Chuck Phillips</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -64,10 +64,10 @@
 
     <!-- Full Width Image Header -->
     <header class="header-image">
-        <div class="headline">
+            <div class="headline">
             <div class="container">
                 <h2>Lesson 3 Highlights</h2>
-                <h3>INSERT YOUR NAME</h3>
+                <h3>Chuck Phillips</h3>
             </div>
         </div>
     </header>
@@ -79,55 +79,71 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="topic1">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/Everything.PNG">
             <h2 class="featurette-heading">Highlight #1
-                <span class="text-muted">Topic 1 Header</span>
+                <span class="text-muted">Whew! Not Just a Click-and-Drag</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">“Whew!” was the word I used at the finish of part 2 of this lesson titled “Create and configure GitHub account, configure Cloud9 for Git, and move files to local and remote repositories”.  It had more steps than putting together the new propane grill this spring.  After clicking the link for Part 2, I suppose seeing “page 1/23” should have been a good indicator of things to come.</p>
+            <p class="lead">Anyway, it was a great exercise, and kudos for putting this together in a manner I could understand and appreciate!</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="topic2">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/differences.jpg">
             <h2 class="featurette-heading">Highlight #2
-                <span class="text-muted">Topic 2 Header</span>
+                <span class="text-muted">Snapshots, Not Differences</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git refers to this feature as one of the most important aspects that differentiate themselves from other Version Control Systems.  Instead of thinking of version tracking of a set of accumulated differences from the original, Git tracks versions as a stream of snapshots over time.</p>
+            <p class="lead">Git refers to its tracked objects as ‘blobs’, which is a known acronym for binary large object.  A blob could contain most anything: videos, sound tracks, data files, or coded programs.  All of these items can be part of an overall application.  And, they can and will have changes made over time.  Tracking them as a snapshot with appropriate identification and timestamping of the ‘blob’ itself, rather than attempting to track the individual differences within the blob, has to be a better way.</p>
+            <p class="lead">I must admit, though, I don’t fully appreciate this feature because I haven’t had the experience working with Git.  Hopefully, that understanding will develop.  As an application developer for a good part of my career, versioning was never a big topic.  It was important, however, and the ability to manage and track versions of software was always a requirement.  Spending a lot of time on it, however, was not.</p>
+            <p class="lead">On the other hand, I’ve never been in a situation where development was a community effort.  I can see that a project of this size would require a version control system that has all the bells-and-whistles available.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="topic3">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/stage.jpg">
             <h2 class="featurette-heading">Highlight #3
-                <span class="text-muted">Topic 3 Header</span>
+                <span class="text-muted">Staging Areas</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">The stage is the place where it all comes together.  Actually, staging is used quite a bit in IT.  A company transferring data back-and-forth may use ftp as a staging area for files.  A router can be thought of as a staging area for data to-and-from your pc.   Git uses a staging area as an integral part of it version control – it is that in-between place where everything comes together.</p>
+            <p class="lead">You may checkout the project to your workspace.  Changes and rudimentary testing are only done in your workspace.   Completed changes go into the git staging area.  They don’t become part of the repository until they are committed.</p>   
+            <p class="lead">A staging area is important because other processes can work on it.  They may deal with security (data arriving or leaving the company), speed (transferring multiple files instead of just one), or efficient workflow (integrity checks of data before it moves somewhere else).  Git uses this staging area to properly identify and index changes of your completed work prior to commit.</p>
         </div>
         
         <hr class="featurette-divider">
         
        <!-- Fourth Featurette -->
         <div class="featurette" id="topic4">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/hurricane.jpg">
             <h2 class="featurette-heading">Highlight #4
-                <span class="text-muted">Topic 4 Header</span>
+                <span class="text-muted">Distributed Workflow</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Distributing data to localized workspaces is an inherent design attribute of git.  To keep things fast and not require a dedicated server connection, project data is distributed.  Actually, when git refers to the repository, it is talking about a local repository.  You can commit all day to the local repository, even when you have no connection to the server.  One can really appreciate this if they’ve experienced their cloud-based centralized system down for whatever reason (hurricane Irma comes to mind).</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Fifth Featurette -->
         <div class="featurette" id="topic5">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/git.jpg">
             <h2 class="featurette-heading">Highlight #5
-                <span class="text-muted">Topic 5 Header</span>
+                <span class="text-muted">A Stupid Content Tracker</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">So, I looked up git in Wikipedia and found version 1.0 came out in January, 2006.   It was written by Linus Torvalds who also responsible for Linux.  The readme file of the original version’s source code, and evidently, still retrievable, quotes:
+                <ul>
+                    <p>The name "git" was given by Linus Torvalds when he wrote the very first version. He described the tool as "the stupid content tracker" and the name as (depending on your way):</p>
+                    <ul>
+                        <li> random three-letter combination that is pronounceable, and not actually used by any common UNIX command. The fact that it is a mispronunciation of "get" may or may not be relevant.</li>
+                        <li> stupid. contemptible and despicable. simple. Take your pick from the dictionary of slang.</li>
+                        <li> "global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.</li>
+                    </ul>
+                </ul>
+            <p class="lead">When he started writing this version control system, however, he made it a point that git was not going to act like other systems on the market, and that it needed to be capable of handling large-scale software collaboration projects, like Linux itself.</p>
+</p>
         </div>
 
         <hr class="featurette-divider">
